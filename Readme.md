@@ -9,7 +9,9 @@
 
 #### ADMIN USER PASSWORD
 you may be prompted to set the user id and password , still following are userID and Password used by us,
-``UserID : admin``
+
+
+``UserID : admin``,
 ``Password : 1234``
 
 ## CONTENTS
