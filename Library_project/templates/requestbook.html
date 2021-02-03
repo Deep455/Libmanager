@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Request Book | LibManager</title>
+        {% load static %}
+         <!-- ICON-->
+        <link rel="shortcut icon" type="image/png" href="{% static 'libmanager/images/logo.ico' %}"/>
+        <link rel="stylesheet" href="{% static 'libmanager/requestbook.css' %}">
+          <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- below one for all para textx --font-family: 'Smythe', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- this one for addbook attributes -- font-family: 'Kameron', serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div>
+            <h1 class="heading">Request Book</h1>
+            <h2> Make sure you check the library thoroughly before requesting</h2>
+        </div>
+        <div class="bg-img">
+            <div class="container">
+            <div>
+            <form method="POST" action="/requestbook"  >
+                {% csrf_token %}
+                <div class="name">
+                    <input type="text" name="name" placeholder="FULL NAME">
+                </div>
+                <div class="name">
+                    <input type="email" name="email" placeholder="EMAIL">
+
+                </div>
+                <div class="name">
+                   Request details: <textarea name="request" id="" cols="30" rows="10" ></textarea>
+                </div>
+                <div class="dep">
+                    <input type="submit" value="SUBMIT" class="btn" >
+                    <input type="reset" value="RESET" class="btn">
+                </div>
+            </form>
+        </div>
+        </div>
+        </div>
+
+    <div class="footer">
+            <div>
+                 <h3 id="para2"> (c) RedStone library | Learn, Discover, Create, Connect. </h3>
+                    <p id="para2"> All rights reserved </p>
+            </div>
+
+
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,82 @@
+#hold {
+  width: 978px;
+  margin: 0 auto;
+}
+
+body {
+    background: white url("images/back.png") no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.heading{
+   font-family: 'Goldman', cursive;
+    color: brown;
+}
+
+.bg{
+  border-radius: 50px;
+
+  /* Control the height of the image */
+  min-height: 1000px;
+    background-image: url("images/back2.jpeg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+input{
+        font-size: 20px;
+}
+
+input[type=text],input[type=email],input[type=number],input[type=range],input[type=password]{
+   width: 40%;
+  padding: 15px;
+  margin: 15px 0 22px 0;
+  border-radius: 2px;
+     border-width: thick;
+     border-color: brown;
+    color: white;
+ background-color: transparent;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=number]:focus,input[type=range]:focus{
+  background-color: black;
+  outline: none;
+}
+
+
+.container {
+  position: absolute;
+    width: 40%;
+  padding: 16px;
+    background-image: url("images/bf.jpg");
+  margin-top: 300px;
+    margin-left: 40%;
+}
+
+.new{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.dep{
+    display: flex;
+}
+
+.btn {
+ background-color: white;
+  color: black;
+    font-size: 20px;
+    font-weight: bold;
+  padding: 16px 20px;
+    border-radius: 25px;
+    border-width: thick;
+    border-color: white;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.8;
+}
