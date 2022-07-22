@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page | LibManager </title>
+    </head>
+
+    <body>
+        <div>
+            <h3>Login Page</h3>
+        </div>
+        <div>
+            <form method="POST" action="/login">
+                {% csrf_token %}
+                <div>
+                    Name: <input type="text" name="user_name" id="">
+                </div>
+
+                <div>
+                    Password : <input type="password" name="user_pass" id="">
+                </div>
+                <div>
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
