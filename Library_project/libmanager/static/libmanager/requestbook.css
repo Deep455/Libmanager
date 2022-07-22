@@ -1,0 +1,112 @@
+body {
+    background: white url("images/back.png") no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heading{
+   font-family: 'Goldman', cursive;
+    color: brown;
+}
+.bg-img {
+  /* The image used */
+    border-radius: 10px;
+  /* Control the height of the image */
+  min-height: 700px;
+background-image: url("images/back2.jpeg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+input[type=text],input[type=email]{
+  width: 90%;
+  padding: 15px;
+    font-size: 20px;
+  margin: 15px 0 22px 0;
+  border-radius: 2px;
+     border-width: thick;
+    color: white;
+     border-color: brown;
+  background-color: transparent;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=number]:focus,input[type=range]:focus{
+  background-color: black;
+  outline: none;
+}
+
+.name{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.container {
+  position: absolute;
+    background-image: url("images/bf.jpg");
+    border-radius: 5px;
+  padding: 16px;
+  margin-top: 80px;
+    margin-left: 30%;
+}
+::placeholder{
+    color: white;
+    font-weight: bolder;
+}
+textarea{
+    border-radius: 2px;
+    border-color: brown;
+}
+
+
+.btn {
+  background-color: white;
+  color: black;
+    font-size: 20px;
+    font-weight: bold;
+  padding: 16px 20px;
+    border-radius: 25px;
+    border-width: thick;
+    border-color: white;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+.dep{
+    display: flex;
+}
+
+  .footer {
+  text-align: center;
+  padding: 10px;
+    background-color: black;
+      bottom: 0;
+      width: 100%;
+      position: absolute;
+}
+.ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+ }
+.disp_below{
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    display: block;
+    text-align: start;
+}
+.disp_below a{
+    display: block;
+  padding: 8px;
+    color: white;
+}
+#para2{
+    color: white;
+font-family: "Times New Roman", Times, serif;
+}

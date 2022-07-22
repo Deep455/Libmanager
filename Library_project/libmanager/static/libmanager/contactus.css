@@ -1,0 +1,79 @@
+#hold {
+  width: 978px;
+  margin: 0 auto;
+}
+
+
+body {
+    background: white url("images/back.png") no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  position: relative;
+  width:80%; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 80%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.center{
+            text-align: center;
+        }
+
+    #name{
+        font-size: 48px;
+        color: brown;
+
+    }
+
+    .name2{
+        font-size: 30px;
+        color: brown;
+        font-family: 'Goldman', cursive;
+    }
+    .size{
+            font-size: large;
+        }
+    .parag{
+        font-family: 'Smythe', cursive;
+        font-size: 30px;
+    }
+
+    .footer {
+  text-align: center;
+  padding: 20px;
+    background-color: black;
+}
+.ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+ }
+.disp_below{
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    display: block;
+    text-align: start;
+}
+.disp_below a{
+    display: block;
+  padding: 8px;
+    color: white;
+}
+#para2{
+    color: white;
+font-family: "Times New Roman", Times, serif;
+}
